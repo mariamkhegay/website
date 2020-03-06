@@ -22,9 +22,8 @@ img.rot {
       transform: rotate(360deg);
     }
   }
-
-body {
-    background-color: rgb(223, 141, 195);
+  body {
+    background-color: rgb(113, 52, 121);
     transition: .5s all ease;
 }
-  
+
