@@ -1,0 +1,30 @@
+img.rot {
+    animation: 15s linear 0s normal none infinite running rot;
+    -webkit-animation: 15s linear 0s normal none infinite running rot;
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+  }
+  @keyframes rot {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  @-webkit-keyframes rot {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+body {
+    background-color: rgb(223, 141, 195);
+    transition: .5s all ease;
+}
+  
